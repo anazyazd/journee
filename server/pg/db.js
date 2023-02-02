@@ -1,6 +1,8 @@
 const { Pool } = require('pg');
 
-const myURI = '';
+//! remove before pushing into github
+
+const myURI = 'postgres://vcckrujl:hrmhAw_TTg_B0DKF3wGifHtREFmVJoPa@kashin.db.elephantsql.com/vcckrujl';
 
 const pool = new Pool({
   connectionString: myURI
