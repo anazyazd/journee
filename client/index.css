@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+main {
+  background-color: #212F3D;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: xx-large;
+  color: aliceblue
+}
+
+.start {
+  background-color: #1ABC9C;
+  border: none;
+  border-radius: 5px;
+  color: #D1F2EB;
+  text-align: center;
+  padding: 5px 15px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* h1{
+  color: blue;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+} */
