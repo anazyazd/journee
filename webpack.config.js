@@ -16,11 +16,13 @@ module.exports = {
         // hot: true,
         liveReload: true,
         proxy: {
-            context: ['/api'],
+          "/api/**": {
             target: 'http://localhost:8080/',
             router: () => 'http://localhost:3000',
             secure: false,
             changeOrigin: true
+          }
+            // context: ['/api'],
             // '/': 'http://localhost:3000',
         }
     },
